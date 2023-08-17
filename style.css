@@ -1,0 +1,130 @@
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header {
+  background-color: #002533;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #bf9b45;
+  justify-content:flex-start;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  color: #bf9b45;
+  font-size: 30px;
+  justify-content:space-evenly;
+}
+
+.nav-menu li {
+  margin-right: 20px;
+  color: #bf9b45;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #bf9b45;
+}
+
+.hero {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.hero-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #bf9b45;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #bf9b45;
+  margin-bottom: 40px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.service img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.project img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Add media queries for responsiveness as needed */
